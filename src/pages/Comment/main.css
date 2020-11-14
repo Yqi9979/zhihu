@@ -1,0 +1,35 @@
+/* 无评论 */
+
+.comment-empty p {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 30vh;
+    color: #bbb;
+}
+
+/* 有评论 */
+.comment-exist {
+    padding-top: var(--head-top);
+    padding-bottom: 1rem;
+}
+
+/* 发表评论 */
+.publish-comment {
+    position: fixed;
+    bottom: 0;
+    width: var(--width);
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #ebebeb;
+    overflow: hidden;
+    display: flex;
+    font-size: 0.36rem;
+    color: #999;
+}
+
+.publish-comment img {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+}

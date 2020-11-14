@@ -1,0 +1,21 @@
+/**
+ * @author Yqi
+ * @description 全局变量
+ */
+
+:root {
+    --width: 7.5rem;
+    --black-tinge: #a3a3a3;
+    --head-top: 1rem;
+
+    /* 详情页 */
+
+    /* 菜单背景 block #a3a3a3 */
+    --menu-color: block;
+
+    /* 菜单分割线 #d6d6d6 #434343 */
+    --menu-split-color: #d6d6d6;
+
+    /* 按钮字体颜色 #f7f7f7 #2f2f2f */
+    --menu-background-color: #f7f7f7;
+}

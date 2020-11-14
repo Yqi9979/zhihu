@@ -1,0 +1,63 @@
+.my {
+    padding-top: var(--head-top);
+    position: relative;
+    height: calc(100vh - var(--head-top));
+}
+
+.my-portrait {
+    text-align: center;
+    margin: 0.4rem;
+}
+
+.my-portrait img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.my-title {
+    text-align: center;
+    font-size: 0.46rem;
+    font-weight: bold;
+}
+
+.my-option {
+    margin-top: 0.7rem;
+}
+
+.my-option .option-item {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0 0.2rem;
+    border-top: 0.01rem solid #eeeeee;
+    font-size: 0.42rem;
+}
+
+.my-option .option-item i {
+    float: right;
+    font-weight: bold;
+    font-size: 0.4rem;
+    color: #cdcdcd;
+    vertical-align: middle;
+}
+
+.my-bottom {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    width: var(--width);
+}
+
+.my-bottom-item {
+    width: 50%;
+    text-align: center;
+}
+
+.my-bottom-item i {
+    font-size: 0.8rem;
+}
+
+.my-bottom-item p {
+    padding-top: 0.2rem;
+    font-size: 0.4rem;
+}

@@ -1,0 +1,30 @@
+.head {
+    position: fixed;
+    top: 0;
+    width: var(--width);
+    display: flex;
+    justify-content: space-between;
+    height: calc(var(--head-top) - 0.01rem);
+    line-height: calc(var(--head-top) - 0.01rem);
+    font-weight: bold;
+    background-color: white;
+}
+
+.head .head-left {
+    flex: 1;
+}
+
+.head .head-left i {
+    padding-left: 0.2rem;
+    font-size: 0.4rem;
+}
+
+.head .head-center {
+    flex: 1;
+    text-align: center;
+    font-size: 0.42rem;
+}
+
+.head .head-right {
+    flex: 1;
+}

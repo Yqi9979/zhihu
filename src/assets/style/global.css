@@ -1,0 +1,15 @@
+/**
+ * @author Yqi
+ * @description 全局样式
+ */
+body {
+    font-size: 0.12rem;
+}
+
+.App {
+    width: var(--width);
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    font-family: "楷体";
+}

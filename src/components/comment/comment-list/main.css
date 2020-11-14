@@ -1,0 +1,91 @@
+.comment-list .list-title {
+    font-size: 0.34rem;
+    font-weight: bold;
+    padding: 0.3rem 0.2rem 0.2rem;
+}
+
+.comment-list .list-item {
+    display: flex;
+    padding: 0.6rem 0.2rem 0.3rem;
+    border-bottom: 0.01rem solid #ececec;
+}
+
+.comment-short .comment-list .list-item:last-child {
+    border-bottom: none;
+}
+
+.comment-list .item-left {
+    padding-right: 0.2rem;
+    width: 0.9rem;
+}
+
+.comment-list .item-left img {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+
+.comment-list .item-right {
+    width: calc(var(--width) - 1.3rem);
+}
+
+.comment-list .item-right h3 {
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+
+.comment-list .item-right h3 > i {
+    font-size: 0.3rem;
+    float: right;
+    margin-top: 0.05rem;
+    color: #bcbcbc;
+}
+
+.comment-list .item-right > p {
+    margin: 0.2rem 0;
+    font-size: 0.34rem;
+    line-height: 0.5rem;
+}
+
+.comment-list .item-reply {
+    color: #979797;
+    font-size: 0.34rem;
+    line-height: 0.5rem;
+}
+
+.comment-list .item-right-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0 0;
+    line-height: 0.5rem;
+}
+
+.comment-list .item-right-bottom > span {
+    font-size: 0.32rem;
+    color: #c3c3c3;
+}
+
+.comment-list .item-right-bottom > div {
+    color: #999;
+}
+
+.comment-list .item-right-bottom > div em {
+    vertical-align: baseline;
+    margin-right: 0.1rem;
+    font-size: 0.34rem;
+}
+
+.comment-list .item-right-bottom > div i {
+    font-size: 0.46rem;
+}
+
+.comment-list .item-right-bottom > div i:nth-child(2) {
+    margin-right: 0.5rem;
+}
+
+.did-load {
+    text-align: center;
+    font-size: 0.32rem;
+    color: #bcbcbc;
+    margin: 0.5rem 0;
+}
